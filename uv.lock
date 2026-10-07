@@ -384,7 +384,7 @@ wheels = [
 [[package]]
 name = "de-zoomcamp"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "pandas" },
     { name = "psycopg" },
